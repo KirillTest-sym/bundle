@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Limur\Map;
+namespace Limur\Map;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
