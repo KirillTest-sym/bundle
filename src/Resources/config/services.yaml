@@ -1,0 +1,25 @@
+#services.yml
+
+services:
+
+  App\Limur\Map\Service\Nominatim: ~
+
+  App\Limur\Map\Service\Sputnik: ~
+
+  App\Limur\Map\Service\MapInterface $map: '@App\Limur\Map\Service\Nominatim'
+
+  App\Limur\Map\Service\MapInterface: '@App\Limur\Map\Service\Sputnik'
+
+  app_limur_map_controller_nominatim:
+    public: true
+    class: App\Limur\Map\Controller\MapController
+    autowire: true
+    arguments:
+      $map: '@App\Limur\Map\Service\Nominatim'
+
+  app_limur_map_controller_sputnik:
+    public: true
+    class: App\Limur\Map\Controller\MapController
+    autowire: true
+    arguments:
+      $map: '@App\Limur\Map\Service\Sputnik'

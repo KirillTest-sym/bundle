@@ -1,0 +1,11 @@
+#routes.yaml
+
+app_limur_map_get_geo_data_from_nominatim:
+  path:     /map/nominatim/geo
+  methods: POST
+  controller: app_limur_map_controller_nominatim::geoAction
+
+app_limur_map_get_geo_data_from_sputnik:
+  path:     /map/sputnik/geo
+  methods: POST
+  controller: app_limur_map_controller_sputnik::geoAction
