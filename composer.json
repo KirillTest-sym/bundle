@@ -46,11 +46,11 @@
         "sort-packages": true
     },
     "autoload": {
+        "exclude-from-classmap": [
+            "/Tests/"
+        ],
         "psr-4": {
             "Limur\\LimurMapBundle\\": "src",
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
         }
     },
     "autoload-dev": {
