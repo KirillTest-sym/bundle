@@ -50,7 +50,7 @@
             "/Tests/"
         ],
         "psr-4": {
-            "Limur\\LimurMapBundle\\": "src",
+            "Limur\\LimurMapBundle\\": "src"
         }
     },
     "autoload-dev": {
