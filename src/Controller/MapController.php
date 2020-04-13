@@ -2,9 +2,9 @@
 
 namespace Limur\Map\Controller;
 
-use App\Limur\Map\Service\MapInterface;
-use App\Limur\Map\Entity\Address;
-use App\Limur\Map\Form\AddressType;
+use Limur\Map\Service\MapInterface;
+use Limur\Map\Entity\Address;
+use Limur\Map\Form\AddressType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
