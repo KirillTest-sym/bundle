@@ -50,12 +50,12 @@
             "/Tests/"
         ],
         "psr-4": {
-            "Limur\\Map\\": "src"
+            "Limur\\Map\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Limur\\Map\\Tests\\": "tests"
+            "Limur\\Map\\Tests\\": "src/Tests/"
         }
     },
     "scripts": {
