@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Limur\Map\Service;
+namespace Limur\Map\Service;
 
 use Symfony\Component\HttpClient\CurlHttpClient;
 

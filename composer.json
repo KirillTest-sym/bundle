@@ -50,12 +50,18 @@
             "/Tests/"
         ],
         "psr-4": {
-            "Limur\\LimurMapBundle\\": "src"
+            "Limur\\Map\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Limur\\LimurMapBundle\\Tests\\": "tests"
+            "Limur\\Map\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     }
 }

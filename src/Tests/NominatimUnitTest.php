@@ -3,7 +3,7 @@
 
 namespace App\Limur\Map\Tests;
 
-use App\Limur\Map\Service\Nominatim;
+use Limur\Map\Service\Nominatim;
 use Monolog\Test\TestCase;
 
 class NominatimUnitTest extends TestCase

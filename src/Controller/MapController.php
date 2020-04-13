@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Limur\Map\Controller;
+namespace Limur\Map\Controller;
 
 use App\Limur\Map\Service\MapInterface;
 use App\Limur\Map\Entity\Address;

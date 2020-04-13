@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Limur\Map\Entity;
+namespace Limur\Map\Entity;
 
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\Type;

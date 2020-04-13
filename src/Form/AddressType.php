@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Limur\Map\Form;
+namespace Limur\Map\Form;
 
 
-use App\Limur\Map\Entity\Address;
+use Limur\Map\Entity\Address;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;

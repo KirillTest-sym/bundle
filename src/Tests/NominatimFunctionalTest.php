@@ -1,9 +1,9 @@
 <?php
 
 
-namespace App\Limur\Map\Tests;
+namespace Limur\Map\Tests;
 
-use App\Limur\Map\Service\Nominatim;
+use Limur\Map\Service\Nominatim;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class NominatimFunctionalTest extends WebTestCase

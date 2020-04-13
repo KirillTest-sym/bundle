@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Limur\Map\Service;
+namespace Limur\Map\Service;
 
 interface MapInterface
 {

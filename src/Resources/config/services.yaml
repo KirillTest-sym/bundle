@@ -2,24 +2,24 @@
 
 services:
 
-  App\Limur\Map\Service\Nominatim: ~
+  Limur\Map\Service\Nominatim: ~
 
-  App\Limur\Map\Service\Sputnik: ~
+  Limur\Map\Service\Sputnik: ~
 
-  App\Limur\Map\Service\MapInterface $map: '@App\Limur\Map\Service\Nominatim'
+  Limur\Map\Service\MapInterface $map: '@Limur\Map\Service\Nominatim'
 
-  App\Limur\Map\Service\MapInterface: '@App\Limur\Map\Service\Sputnik'
+  Limur\Map\Service\MapInterface: '@Limur\Map\Service\Sputnik'
 
-  app_limur_map_controller_nominatim:
+  limur_map_controller_nominatim:
     public: true
-    class: App\Limur\Map\Controller\MapController
+    class: Limur\Map\Controller\MapController
     autowire: true
     arguments:
-      $map: '@App\Limur\Map\Service\Nominatim'
+      $map: '@Limur\Map\Service\Nominatim'
 
-  app_limur_map_controller_sputnik:
+  limur_map_controller_sputnik:
     public: true
-    class: App\Limur\Map\Controller\MapController
+    class: Limur\Map\Controller\MapController
     autowire: true
     arguments:
-      $map: '@App\Limur\Map\Service\Sputnik'
+      $map: '@Limur\Map\Service\Sputnik'
