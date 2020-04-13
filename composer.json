@@ -1,5 +1,5 @@
 {
-    "name": "map",
+    "name": "limur/map",
     "type": "symfony-bundle",
     "description": "Symfony Map Bundle",
     "license": "MIT",
